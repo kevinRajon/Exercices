@@ -19,3 +19,5 @@ elif b<a and b<c:
     print("La plus petite valeur est: ",  b)
 else:
     print("La plus petite valeur est: ",  c)
+    
+print ("testgit")
