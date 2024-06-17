@@ -20,4 +20,4 @@ elif b<a and b<c:
 else:
     print("La plus petite valeur est: ",  c)
     
-print("test")
+print("test tu")
