@@ -1,9 +1,6 @@
 tab=[]
-
 for i in range(0, 10, 1):
-    val=int(input("Entrer une valeur: "))
-    tab.append(val)
-    
+    tab.append(int(input("Entrer une valeur:  ")))
 print(tab)
 
 #ou
