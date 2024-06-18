@@ -3,7 +3,7 @@ while True:
     
     while True:
         op = input("Saisir une opération: + - * / ou 'stop' pour arrêter: ")
-        while op !="+" and op!="-" and op!="*" and op!="/" and op!="stop":
+        while op !="+" and op!="-" and op!="*" and op!="/" and"stop":
             print("SAISIE INVALIDE")
             op = input("Saisir une opération: + - * / ou 'stop' pour arrêter: ")
         
@@ -24,7 +24,6 @@ while True:
                 result = v1 / v2
             else:
                 print("Erreur: Division par zéro")
-                continue
         
         print("Le résultat est:", result)
         v1 = result
