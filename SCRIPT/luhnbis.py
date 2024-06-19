@@ -1,23 +1,20 @@
 def saisir_CB():
     while True:
         saisie = input("Veuillez entrer une chaîne de 16 caractères : ")
-        if len(saisie) == 16:
-            return list(saisie)
+        if len(saisie) == 16 and saisie.isdigit():
+            return [int(ch) for ch in saisie]
         else:
-            print("Erreur : Vous devez entrer exactement 16 caractères.")
+            print("Erreur")
 
 
 tab = saisir_CB()
-            
 n = len(tab)
-
 
 
 for i in range(0, n, 2):
     tab[i] *= 2
     if tab[i] > 9:
         tab[i] -= 9
-
 
 res = sum(tab)
 
