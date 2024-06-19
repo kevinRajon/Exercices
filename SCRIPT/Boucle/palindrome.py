@@ -6,9 +6,7 @@ while True:
     lap = ""
     for car in pal:
         lap = car + lap
-
-    print(lap)
-
+        
     if lap == pal:
         print("Votre mot est un palindrome")
         break
