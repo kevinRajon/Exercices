@@ -1,7 +1,7 @@
 print("Verification palindrome")
 while True:
     
-    pal = str(input("Saisissez un mot:  "))
+    pal = str(input("Saisissez un mot:  ")).lower().replace(" ", "")
 
     lap = ""
     for car in pal:
