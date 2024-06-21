@@ -35,3 +35,4 @@ mess_chiffre = algo_cesar(mess, dec, sens)
 # Afficher le message chiffré
 print("Message chiffré :", mess_chiffre)
 
+
