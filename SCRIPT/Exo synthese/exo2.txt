@@ -1,0 +1,17 @@
+ALGORITHME Election
+ VARIABLE: pr100 : réel
+
+Début
+
+Afficher ("Saisissez un pourcentage de voix : ")
+Saisir (pr100)
+
+Si pr100 < 5 Alors
+    Afficher ("Candidat éliminé")
+Sinon Si pr100 < 50 Alors
+    Afficher ("Candidat qualifié au 2nd tour")
+Sinon
+    Afficher ("Candidat élu")
+Fin Si
+
+Fin

@@ -1,0 +1,35 @@
+ALGORITHME some/moyenne
+ VARIABLE a, b, c, somme, moyenne: entier
+
+DEBUT
+
+    Afficher ("Entrer la valeur 1: ")
+    Saisir (a)
+    Afficher ("Entrer la valeur 2: ")
+    Saisir (b)
+    Afficher ("Entrer la valeur 3: ")
+    Saisir (c)
+
+    somme <- a + b + c
+    moyenne <- somme / 3
+
+    Afficher ("La somme des valeurs est: " + somme)
+    Afficher ("La moyenne des valeurs est: " + arrondir(moyenne, 2))
+
+    Si a > b ET a > c Alors
+        Afficher ("La plus grande valeur est: " + a)
+    Sinon Si b > a ET b > c Alors
+        Afficher ("La plus grande valeur est: " + b)
+    Sinon
+        Afficher ("La plus grande valeur est: " + c)
+    Fin Si
+
+    Si a < b ET a < c Alors
+        Afficher ("La plus petite valeur est: " + a)
+    Sinon Si b < a ET b < c Alors
+        Afficher ("La plus petite valeur est: " + b)
+    Sinon
+        Afficher ("La plus petite valeur est: " + c)
+    Fin Si
+
+Fin
