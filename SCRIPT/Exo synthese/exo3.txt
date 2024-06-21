@@ -4,8 +4,25 @@ ALGORITHME pair ou impair
 
 Pour i allant de 0 À 9 par pas de 1 Faire
     SI tab[i] MODULO 2 == 0 ALORS
-        AFFICHER tab[i], "est pair"
+        AFFICHER (tab[i] "est pair)
     SINON
-        AFFICHER tab[i]
+        AFFICHER (tab[i] est impair)
     FIN SI
 FIN POUR
+
+ou
+
+ALGORITHME pair ou impair
+tab[10]=[51, 94, 25, 64, 47, 82, 15, 46, 78, 7]
+ Variable : i :entier
+ 
+TANT QUE i < 9 faire
+    i <-- i + 1
+    SI tab[i] % 2 == 0 alors
+        afficher (tab[i] est pair)
+    SINON
+        afficher (tab[i]  est impair")
+    FIN SI 
+FIN TANT QUE
+
+FIN

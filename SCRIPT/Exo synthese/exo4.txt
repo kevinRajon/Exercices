@@ -1,0 +1,15 @@
+ALGORITHME Note des eleves
+ TAB[10]entier=[15, 7, 18, 3, 2, 5, 20, 10, 9, 14]
+ Variable res : entier
+
+POUR i ALLANT de 0 à 9 FAIRE 
+    Si tab[i] est supérieur ou égal à 10 alors :
+        Incrémenter res de 1
+    SINON 
+        res reste inchangé 
+    FIN SI 
+FIN POUR
+
+Afficher ((res)  "élèves ont obtenu la moyenne.")
+
+FIN

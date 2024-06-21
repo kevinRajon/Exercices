@@ -6,12 +6,13 @@ Début
 Afficher ("Saisissez un pourcentage de voix : ")
 Saisir (pr100)
 
-Si pr100 < 5 Alors
+SI pr100 < 5 ALORS
     Afficher ("Candidat éliminé")
-Sinon Si pr100 < 50 Alors
+SINON Si pr100 < 50 ALORS
     Afficher ("Candidat qualifié au 2nd tour")
-Sinon
+SINON Si pr100<=100
     Afficher ("Candidat élu")
-Fin Si
-
-Fin
+SINON
+    Afficher ("Pourcentage incorrect")
+FIN SI
+FIN

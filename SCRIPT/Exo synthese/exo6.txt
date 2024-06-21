@@ -1,0 +1,21 @@
+ALGORITHME Trouver des valeurs dans un tableau
+ TAB[10]entier=[15, 7, 32, 3, 12, 5, 32, 10, 9, 1]
+ VARIABLE res, nb: entier
+
+Afficher("Entrez une valeur: ")
+Saisir(nb)
+
+
+POUR i ALLANT du debut à la fin du tableau
+   
+    Si nb = tab[i] Alors
+        res = res + 1
+    FIN SI 
+FIN POUR
+
+# Affichage du résultat
+Si res > 0 Alors
+    Afficher nb & " apparait " & res & " fois dans le tableau"
+Sinon
+    Afficher nb & " n'est pas dans le tableau"
+FinSi
