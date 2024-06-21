@@ -22,7 +22,7 @@ def algo_cesar(mess, dec, sens):
         car_chiffre = tab[nouvel_index]
         mess_chiffre.append(car_chiffre)
     
-    return ''.join(mess_chiffre)
+    return (mess_chiffre)
 
 # Demander à l'utilisateur de saisir le message, le décalage et le sens du décalage
 mess = input("Saisissez votre message: ")
