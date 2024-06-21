@@ -1,4 +1,4 @@
-def algo_cesar(message, decalage, sens):
+def algo_cesar(mess, dec, sens):
     # Tableaux pour les lettres minuscules et majuscules
     tab_min = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
     tab_maj = "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ"
