@@ -9,7 +9,7 @@ while True:
         # Message d'erreur en cas de saisie incorrecte
         print("Saisie incorrecte")
 
-# Boucle infinie pour demander une opération jusqu'à ce que l'utilisateur tape 'stop't
+# Boucle infinie pour demander une opération jusqu'à ce que l'utilisateur tape 'stop'te
 while True:
     op = input("Saisir une opération: + - * / ou 'stop' pour arrêter: ")
     # Boucle interne pour valider l'opération saisie
