@@ -752,8 +752,3 @@ def travail_termine():
     
     
     
-    
-    import webbrowser
-
-    url = "https://media0.giphy.com/media/m2Q7FEc0bEr4I/giphy.gif?cid=6c09b952uueqiuxqbkf9wh0dm0rdk5ow9qtjn5l3dk2ifw0q&ep=v1_gifs_search&rid=giphy.gif&ct=g"
-    webbrowser.open(url)
